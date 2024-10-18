@@ -187,3 +187,6 @@ C:\development\MVC\Store\StoreApp\obj\Debug\net8.0\refint\StoreApp.dll
 C:\development\MVC\Store\StoreApp\obj\Debug\net8.0\StoreApp.pdb
 C:\development\MVC\Store\StoreApp\obj\Debug\net8.0\StoreApp.genruntimeconfig.cache
 C:\development\MVC\Store\StoreApp\obj\Debug\net8.0\ref\StoreApp.dll
+C:\development\MVC\Store\StoreApp\obj\Debug\net8.0\StoreApp.sourcelink.json
+C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\libman.json
+C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\StoreApp.staticwebassets.runtime.json
