@@ -190,3 +190,8 @@ C:\development\MVC\Store\StoreApp\obj\Debug\net8.0\ref\StoreApp.dll
 C:\development\MVC\Store\StoreApp\obj\Debug\net8.0\StoreApp.sourcelink.json
 C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\libman.json
 C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\StoreApp.staticwebassets.runtime.json
+C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\Entities.dll
+C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\Entities.pdb
+C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\Repositories.dll
+C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\Repositories.pdb
+C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\System.Formats.Asn1.dll

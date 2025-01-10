@@ -1,25 +1,28 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
-using Microsoft.EntityFrameworkCore;
-using StoreApp.Models;
+using Entities.Models;
+using Repositories;
+using Repositories.Contracts;
 
 namespace StoreApp.Controllers
 {
     public class ProductController:Controller
     {
-        //Dependcy Injection
-        private readonly RepositoryContext _context;
-        public ProductController(RepositoryContext context){
-            _context=context;
+        private readonly IRepositoryManager _manager;
+
+        public ProductController(IRepositoryManager manager)
+        {
+            _manager = manager;
         }
+
         public IActionResult Index(){
-            
-    var model= _context.Products.ToList();
-    return View(model);
+
+            var model = _manager.ProductR.GetAllProducts(false);
+            return View(model);
         }
-        public IActionResult Get(int id){
-            Product product =_context.Products.First(p=>p.ProductId.Equals(id));
-            return View(product);
+        public IActionResult Get(int id)
+        {
+            var model = _manager.ProductR.GetOneProduct(id, false);
+            return View(model);
         }
     }
 }
