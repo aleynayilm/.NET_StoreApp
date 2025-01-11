@@ -195,3 +195,5 @@ C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\Entities.pdb
 C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\Repositories.dll
 C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\Repositories.pdb
 C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\Services.dll
+C:\development\MVC\Store\StoreApp\bin\Debug\net8.0\Services.pdb
