@@ -9,8 +9,44 @@
       "PackagePath": "staticwebassets\\html\\Error.html"
     },
     {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\1.jpeg",
+      "PackagePath": "staticwebassets\\images\\1.jpeg"
+    },
+    {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\2.jpeg",
+      "PackagePath": "staticwebassets\\images\\2.jpeg"
+    },
+    {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\3.jpeg",
+      "PackagePath": "staticwebassets\\images\\3.jpeg"
+    },
+    {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\4.jpeg",
+      "PackagePath": "staticwebassets\\images\\4.jpeg"
+    },
+    {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\5.jpeg",
+      "PackagePath": "staticwebassets\\images\\5.jpeg"
+    },
+    {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\6.jpeg",
+      "PackagePath": "staticwebassets\\images\\6.jpeg"
+    },
+    {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\7.jpeg",
+      "PackagePath": "staticwebassets\\images\\7.jpeg"
+    },
+    {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\YUNZII YZ87 75% Gasket Mechanical Keyboard.jpeg",
+      "PackagePath": "staticwebassets\\images\\YUNZII YZ87 75% Gasket Mechanical Keyboard.jpeg"
+    },
+    {
       "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\defaultImage.jpg",
       "PackagePath": "staticwebassets\\images\\defaultImage.jpg"
+    },
+    {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\prideandprejudice.jpeg",
+      "PackagePath": "staticwebassets\\images\\prideandprejudice.jpeg"
     },
     {
       "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
