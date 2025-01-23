@@ -11,8 +11,8 @@ using Repositories;
 namespace StoreApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20250122095534_start")]
-    partial class start
+    [Migration("20250122143720_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -127,6 +127,9 @@ namespace StoreApp.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("ShowCase")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Summary")
                         .HasColumnType("TEXT");
 
@@ -139,11 +142,22 @@ namespace StoreApp.Migrations
                     b.HasData(
                         new
                         {
+                            ProductId = 1,
+                            CategoryId = 2,
+                            ImageUrl = "/images/7.jpeg",
+                            Price = 17000m,
+                            ProductName = "Computer",
+                            ShowCase = false,
+                            Summary = ""
+                        },
+                        new
+                        {
                             ProductId = 2,
                             CategoryId = 2,
                             ImageUrl = "/images/1.jpeg",
                             Price = 5000m,
                             ProductName = "Keyboard",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -153,6 +167,7 @@ namespace StoreApp.Migrations
                             ImageUrl = "/images/2.jpeg",
                             Price = 1000m,
                             ProductName = "Mouse",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -162,6 +177,7 @@ namespace StoreApp.Migrations
                             ImageUrl = "/images/3.jpeg",
                             Price = 10000m,
                             ProductName = "Monitor",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -171,6 +187,7 @@ namespace StoreApp.Migrations
                             ImageUrl = "/images/4.jpeg",
                             Price = 3000m,
                             ProductName = "Deck",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -180,6 +197,7 @@ namespace StoreApp.Migrations
                             ImageUrl = "/images/5.jpeg",
                             Price = 25m,
                             ProductName = "History",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -189,15 +207,37 @@ namespace StoreApp.Migrations
                             ImageUrl = "/images/6.jpeg",
                             Price = 50m,
                             ProductName = "Hamlet",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
                         {
-                            ProductId = 1,
+                            ProductId = 8,
+                            CategoryId = 1,
+                            ImageUrl = "/images/8.jpeg",
+                            Price = 300m,
+                            ProductName = "XP-Pen",
+                            ShowCase = true,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 9,
                             CategoryId = 2,
-                            ImageUrl = "/images/7.jpeg",
-                            Price = 17000m,
-                            ProductName = "Computer",
+                            ImageUrl = "/images/9.jpeg",
+                            Price = 19000m,
+                            ProductName = "Galaxy FE",
+                            ShowCase = true,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 10,
+                            CategoryId = 1,
+                            ImageUrl = "/images/10.jpeg",
+                            Price = 200m,
+                            ProductName = "Hp Mouse",
+                            ShowCase = true,
                             Summary = ""
                         });
                 });

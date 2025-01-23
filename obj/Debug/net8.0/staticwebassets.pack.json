@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\images\\1.jpeg"
     },
     {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\10.jpeg",
+      "PackagePath": "staticwebassets\\images\\10.jpeg"
+    },
+    {
       "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\2.jpeg",
       "PackagePath": "staticwebassets\\images\\2.jpeg"
     },
@@ -35,6 +39,14 @@
     {
       "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\7.jpeg",
       "PackagePath": "staticwebassets\\images\\7.jpeg"
+    },
+    {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\8.jpeg",
+      "PackagePath": "staticwebassets\\images\\8.jpeg"
+    },
+    {
+      "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\9.jpeg",
+      "PackagePath": "staticwebassets\\images\\9.jpeg"
     },
     {
       "Id": "C:\\development\\MVC\\Store\\StoreApp\\wwwroot\\images\\YUNZII YZ87 75% Gasket Mechanical Keyboard.jpeg",
