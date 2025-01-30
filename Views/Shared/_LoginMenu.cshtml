@@ -2,13 +2,10 @@
 {
     <li class="nav-item">
         <a class="nav-link" aria-current="page" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
-            <i class="fa-solid fa-gear"></i>
             Admin
         </a>
     </li>
 }
-
-
 @if (User.Identity.IsAuthenticated)
 {
     <li class="nav-item">
